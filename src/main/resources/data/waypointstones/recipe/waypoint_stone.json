@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "AEA",
+    "ECE",
+    "AEA"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "E": "minecraft:ender_pearl",
+    "C": "minecraft:compass"
+  },
+  "result": {
+    "id": "waypointstones:waypoint_stone",
+    "count": 1
+  }
+}

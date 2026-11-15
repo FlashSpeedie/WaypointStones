@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "waypointstones",
+  "version": "${version}",
+  "name": "Waypoint Stones",
+  "description": "A craftable magical waypoint block that displays coordinates, identifies dimensions, creates visual effects, and links compasses to important locations.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.flashspeedie.waypointstones.Main"
+    ],
+    "client": [
+      "io.github.flashspeedie.waypointstones.WaypointStonesClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
